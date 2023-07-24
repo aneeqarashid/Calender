@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 100px;
+}
+.container {
+  width: 400px;
+  height: 300px;
+  display: flex;
+
+  border-radius: 20px;
+}
+.left {
+  background-color: #dfe6da;
+  height: 295px;
+  width: 200px;
+}
+
+.right {
+  background-color: #30684a;
+  height: 295px;
+  width: 195px;
+}
+h1 {
+  font-size: 130px;
+  padding: 30px;
+}
+h2 {
+  padding-left: 30px;
+}
+h3 {
+  font-size: 50px;
+  padding-top: 100px;
+  padding-left: 20px;
+  line-height: 0;
+}
